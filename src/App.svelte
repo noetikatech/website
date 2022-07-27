@@ -82,7 +82,7 @@
     font-size: 2.5em;
 	}
   .logo {
-    height: 12em;
+    width: 426px;
     padding: 1.5em;
     /*will-change: filter;*/
     filter: drop-shadow(0 0 2em #646cffaa) drop-shadow(0 0 2em #646cffaa) drop-shadow(0 0 2em #646cffaa) drop-shadow(0 0 2em #646cffaa);
@@ -103,6 +103,11 @@
   @media screen and (max-width: 576px) {
     .people {
       flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 539px) {
+    .logo {
+      width: 79%;
     }
   }
 
