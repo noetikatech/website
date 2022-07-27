@@ -4,6 +4,8 @@
   import urosHeadshot from './assets/uros_headshot.jpg'
   import mikeHeadshot from './assets/mike_headshot.jpg'
 
+  $: innerWidth = 0
+
   let socialIconWidth = 28;
   let socialIconHeight = 28;
   let can = "can";
@@ -14,28 +16,25 @@
   const social = [
     { network: "linkedin", uk: "https://www.linkedin.com/in/ukalabic/", mc: "https://www.linkedin.com/in/chiumichael/"},
     { network: "telegram", uk: "https://t.me/urosvk", mc: "https://t.me/m1ch5ael"}, 
-    { network: "email", uk: "mailto:uros@noetika.tech", mc: "mailto:mike@noetika.tech"}
+    { network: "mailto", uk: "mailto:uros@noetika.tech", mc: "mailto:mike@noetika.tech"}
   ];
 
 </script>
 
-<main>
-  <div>
-    <!--<a href="https://vitejs.dev" target="_blank"> 
-      <img src="/vite.svg" class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank"> -->
-      <img src={noetikaLogo} class="logo" alt="Noetika Logo" />
-  </div>
+<svelte:window bind:innerWidth />
 
-  <h1>Welcome to noetic engineering</h1>
+<main>
+  <img src={noetikaLogo} class="logo" alt="Noetika Logo" />
+
+  <h1>Welcome to noëtic engineering</h1>
   <p>
     Noetika Technologies is a boutique blockchain shop
     specializing in connecting distributed systems with the real world.
-    <br>Our achievements include web3 development for weather, space, and industrial applications.
+    {#if innerWidth > 906} <br> {/if}
+    Our achievements include web3 development for weather, space, and industrial applications.
   </p>
 
-  <h2>our co-founders:</h2>
+  <h2>Our co-founders:</h2>
 
   <div class="people">
     <div>
@@ -92,8 +91,8 @@
     filter: drop-shadow(0 0 2em #ff3e00aa) drop-shadow(0 0 2em #ff3e00aa) drop-shadow(0 0 2em #ff3e00aa) drop-shadow(0 0 2em #ff3e00aa);
   }
   .headshot {
-    height: 15em;
-    padding: 1em;
+    width: 240px;
+    padding: 16px;
     border: 1px;    
     border-radius:100%;
   }
@@ -101,6 +100,12 @@
     display: flex;
     justify-content: space-evenly; 
   }
+  @media screen and (max-width: 576px) {
+    .people {
+      flex-direction: column;
+    }
+  }
+
   .socials {
     display: flex;
     justify-content: center;
