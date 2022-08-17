@@ -36,4 +36,9 @@
   .logo:hover {
     filter: drop-shadow(0 0 2em #ff3e00aa) drop-shadow(0 0 2em #ff3e00aa) drop-shadow(0 0 2em #ff3e00aa) drop-shadow(0 0 2em #ff3e00aa);
   }
+  @media screen and (max-width: 539px) {
+    .logo {
+      width: 79%;
+    }
+  }
 </style>

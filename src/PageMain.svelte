@@ -87,12 +87,6 @@
       flex-direction: column;
     }
   }
-  @media screen and (max-width: 539px) {
-    .logo {
-      width: 79%;
-    }
-  }
-
   .socials {
     display: flex;
     justify-content: center;
