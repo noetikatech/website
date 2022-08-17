@@ -9,15 +9,15 @@
 <h2>Click a link below:</h2>
 
 <p>
-<a href="https://www.vimeo.com">presentation</a>
+<a href="https://www.vimeo.com" target="_blank">presentation</a>
 </p>
 
 <p>
-<a href={Presentation}>slides</a>
+<a href={Presentation} target="_blank">slides</a>
 </p>
 
 <p>
-<a href={WhitePaper}>whitepaper</a>
+<a href={WhitePaper} target="_blank">whitepaper</a>
 </p>
 
 <style>
