@@ -24,12 +24,14 @@
 
 
 <h1>Welcome to noëtic engineering</h1>
+<div class="text-block">
 <p>
   Noetika Technologies is a boutique blockchain shop
   specializing in connecting distributed systems with the real world.
-  {#if innerWidth > 906} <br> {/if}
+  <!--{#if innerWidth > 906} <br> {/if}-->
   Our achievements include web3 development for <a href="/weather"><span style="color:white">weather</span></a>, space, and industrial applications.
 </p>
+</div>
 
 <h2>Our co-founders:</h2>
 

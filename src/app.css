@@ -79,3 +79,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.text-block {
+  width:600px;
+  text-align:center;
+  display: inline-block;
+}
+
+@media screen and (max-width: 650px) {
+  .text-block {
+    width: 80%;
+  }
+}
