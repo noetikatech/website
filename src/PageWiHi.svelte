@@ -5,7 +5,12 @@
     import WiHiLogo from './assets/wihi_logo.jpeg'
 </script>
 
-<h1>Welcome to WiHi</h1>
+<h1>Welcome to WiHi
+</h1>
+<h2>
+<i>Winner of the 2022 Solana Summer Camp Hackathon
+<a href="https://solana.com/news/solana-summer-camp-winners">Climate Award</a></i>
+</h2>
 
 <div class="text-block">
 
