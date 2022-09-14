@@ -84,10 +84,11 @@ button:focus-visible {
   width:600px;
   text-align:center;
   display: inline-block;
+  padding: 0px;
 }
 
 @media screen and (max-width: 650px) {
   .text-block {
-    width: 80%;
+    width: 92%;
   }
 }

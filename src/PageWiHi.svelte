@@ -7,10 +7,10 @@
 
 <h1>Welcome to WiHi</h1>
 
+<div class="text-block">
+
 <img src={WiHiLogo} class="logo" alt="WiHi Logo" />
 
-<br>
-<div class="text-block">
 <p>
   WiHi is a decentralized solution to the problems of weather forecasting and climate monitoring.
   It comes with an algorithm that measures contributions to forecast improvement and pays out participants in proportion to how much improvement their sensors provide.
@@ -78,6 +78,7 @@ The rewards are computed according to a "post-processing" algorithm that assimil
   .logo {
     width: 300px;
     padding: 1.5em;
+    border-radius: 45px;
     /*will-change: filter;*/
   }
   @media screen and (max-width: 650px) {
