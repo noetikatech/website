@@ -56,7 +56,10 @@ The rewards are computed according to a "post-processing" algorithm that assimil
 
 <p>
   If you like Solana...
-  <br><span style="float:right;">...WiHi is part of the Solana ecosystem.</span>
+  <br><span style="float:right;">...WiHi is part of the Solana 
+    <a href="https://solana.com/environment" 
+      title='Check out the "Featured Projects" at the bottom of the page' target="_blank">
+      ecosystem</a>.</span>
 </p>
 </div>
 
